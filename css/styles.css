@@ -1,0 +1,47 @@
+/************************************ TAG SELECTORS*******************************/
+body {
+  background-color: #A9E4D7;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: #63B4B8;
+  width: 700%;
+}
+
+h1 {
+  color: #4B3869;
+}
+
+h3 {
+  color: #4B3869;
+}
+
+th {
+  color: #664E88;
+}
+
+/************************************ CLASS SELECTORS*******************************/
+.oddRow {
+  background-color: #63B4B8;
+}
+
+.evenRow {
+  background-color: #664E88;
+}
+
+/************************************ ID SELECTORS*******************************/
+/*
+#tableHeading{/*id tag will overrite. One can only have a single instance of an id on a particular page
+  color: #664E88;
+}
+*/
+#profilePicture {
+  width: auto;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  padding: 12px 0;
+  border-radius: 50%;
+}
